@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <title>School Time Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+            grid-auto-rows: 80px;
+            margin: auto;
+        }
+
+      h1{
+        font-size: xx-large;
+        font-weight: 400px;
+            color:yellow;
+      }
+
+        div{
+            border: 3px solid;
+            border-color:#FDFD96;
+        }
+
+        *{
+            background-color: rgb(181, 190, 197);
+            
+        }
+
+        .grid-items{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        html{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        img{
+          width: 200px;
+          height: 200px;
+
+        }
+
+        button{
+          background-color: peru;
+          color: white;
+          border: none;
+          border-radius: 5px;
+        }
+
+        button:hover{
+          background-color: #FDFD96;
+          color: #05445E;
+          cursor:pointer;
+        }
+        
+         @media (max-width: 680px) {
+        * {
+          font-size: 10px ;
+        }
+
+        div{
+          border: 2px solid;
+          border-color:#05445E;
+        }
+          
+
+        img{  
+           width: 150px;
+            height: 150px;
+        }
+        h1{
+            font-size: large;
+            color:#05445E;
+        }
+
+        button{
+          border-radius: 5px;
+          color: white;
+          border: none;
+          background-color:#05445E;
+          height: 20px;
+        }
+
+        button:hover{
+          background-color:peru;
+          cursor: pointer;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Study time table</h1>
+    <img class="bug" src="./img1.jpg" alt="painting of lady bug in grass">
+    <img class="poster" src="./img2.jpg" alt="fortune favours the kind">
+    <div class="flex-container">
+    <div class="grid-container">
+      <div class="grid-items">Monday</div>
+      <div class="grid-items">Tuesday</div>
+      <div class="grid-items">Wednesday</div>
+      <div class="grid-items">Thursday</div>
+      <div class="grid-items">Friday</div>
+      <div class="grid-items">Saturday</div>
+      <div class="grid-items">Sunday</div>
+      <div class="grid-items">Free<br>C Programing</div>
+      <div class="grid-items">Class </br>(8-10am)</div>
+      <div class="grid-items">Class</br>(2-4pm)</div>
+      <div class="grid-items">Free<br>VB.net</div>
+      <div class="grid-items">Class(8-10am)</br>Class(10-12am)</div>
+      <div class="grid-items">Free<br>C++</div>
+      <div class="grid-items">Free<br>Programing <br>Principals</div>
+    </div>
+    </div>
+    <ul>
+      <li>Take time after class at school to finish note taking </li>
+      <li>Come to class early for programing principals</li>
+      <li>Practice working with actual code </li>
+    </ul>
+    <a href="./index.html"><button>Click here</button></a>
+    <p>Go back to the school time table ?</p>
+  </body>
+</html>

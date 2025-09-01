@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <title>Study Time Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-auto-rows: 60px;
+            margin: auto;
+            
+        
+        }
+
+        div{
+            border: 3px solid;
+            border-color: rgb(95, 145, 104);
+        }
+
+        *{
+            background-color: palegoldenrod;
+            
+        }
+
+        .grid-items{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        html{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        img{
+          width: 200px;
+          height: 200px;
+
+        }
+
+        h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: xx-large;
+        font-weight: 400;
+        color: darkgreen;
+      }
+
+      button{
+        border-radius: 50%;
+        height: 40px;
+        width: 90px;
+        background-color:#f5f23c;
+      }
+
+      p,button{
+        color: darkgreen;
+      }
+
+     
+        
+         @media (max-width: 680px) {
+        * {
+          font-size: 10px ;
+        }
+
+        div{
+          border: 2px solid;
+          border-color:rgb(191, 32, 32);
+        }
+          
+
+        img{  
+           width: 150px;
+            height: 150px;
+        }
+        h1{
+            font-size: large;
+            color:darkred;
+        }
+
+         p,button{
+        color: darkred;
+      }
+
+       button{
+        border-radius: 50%;
+        height: 30px;
+        width: 70px;
+        background-color:#f5a418;
+      }
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>School time table</h1>
+    <img class="bug" src="./img1.png" alt="painting of lady bug in grass">
+    <img class="poster" src="./img2.png" alt="fortune favours the kind">
+    <div class="flex-container">
+    <div class="grid-container">
+      <div class="grid-items">Monday</div>
+      <div class="grid-items">Tuesday</div>
+      <div class="grid-items">Wednesday</div>
+      <div class="grid-items">Thursday</div>
+      <div class="grid-items">Friday</div>
+      <div class="grid-items">No classes</div>
+      <div class="grid-items">C Programing </br>(8-10am)</div>
+      <div class="grid-items">Programing Principals</br>(2-4pm)</div>
+      <div class="grid-items">No classes</div>
+      <div class="grid-items">C++ (8-10am)</br>VB.net (10-12am)</div>
+    </div>
+    </div>
+    <a href="./table2.html">
+      <p>
+        <button>Click here
+        </button>
+      </p>
+    </a>
+    <p>
+      To see study time table
+    </p>
+
+  </body>
+</html>
